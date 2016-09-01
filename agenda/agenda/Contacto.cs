@@ -31,5 +31,16 @@ namespace agenda
         public int TelefonoCelular { get; set; }
 
 
+        public string Imprimir()
+        {
+
+            return Nombre + "," + Apellido + "," + Dirrecion + "," + TelefonoCasa + "," + TelefonoCelular;
+
+        }
+
+
+
+
+
     }
 }

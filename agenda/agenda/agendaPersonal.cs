@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace agenda
 {
-    public partial class Form1 : Form
+    public partial class agendaPersonal : Form
     {
-        public Form1()
+        public agendaPersonal()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminContactos.cs" />
     <Compile Include="Contacto.cs" />
     <Compile Include="agendaPersonal.cs">
       <SubType>Form</SubType>

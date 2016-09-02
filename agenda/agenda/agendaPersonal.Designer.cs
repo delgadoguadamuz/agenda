@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tbxNombre = new System.Windows.Forms.TextBox();
             this.tbxApellido = new System.Windows.Forms.TextBox();
             this.tbxDirrecion = new System.Windows.Forms.TextBox();
@@ -44,6 +45,7 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.mnsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.smiGuardar = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvContactos)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -142,11 +144,9 @@
             // dgvContactos
             // 
             this.dgvContactos.AllowUserToAddRows = false;
-            this.dgvContactos.AllowUserToDeleteRows = false;
             this.dgvContactos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvContactos.Location = new System.Drawing.Point(32, 79);
             this.dgvContactos.Name = "dgvContactos";
-            this.dgvContactos.ReadOnly = true;
             this.dgvContactos.Size = new System.Drawing.Size(618, 180);
             this.dgvContactos.TabIndex = 11;
             this.dgvContactos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -184,6 +184,11 @@
             this.smiGuardar.Size = new System.Drawing.Size(152, 22);
             this.smiGuardar.Text = "Guardar";
             this.smiGuardar.Click += new System.EventHandler(this.smiGuardar_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // agendaPersonal
             // 
@@ -234,6 +239,7 @@
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem mnsMenu;
         private System.Windows.Forms.ToolStripMenuItem smiGuardar;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
 

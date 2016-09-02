@@ -13,6 +13,7 @@ namespace agenda
         {
             InitializeComponent();
 
+
             adminContactos = new AdminContactos();
 
             dgvContactos.DataSource = adminContactos.Tabla;

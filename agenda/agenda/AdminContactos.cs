@@ -1,10 +1,12 @@
 ﻿using System.Data;
+using System.IO;
 
 namespace agenda
 {
     class AdminContactos
     {
-        
+
+        private string archivo;
 
         public AdminContactos()
         {
@@ -18,7 +20,12 @@ namespace agenda
 
         }
 
+
         public DataTable Tabla { get; set; }
+
+
+        public string Archivo { get; set; }
+
 
         public void AgregarContacto(Contacto contacto)
         {
@@ -32,6 +39,26 @@ namespace agenda
             fila["Telefono Celular"] = contacto.TelefonoCelular;
 
             Tabla.Rows.Add(fila);
+
+
+
+        }
+
+        public void GuardarContactos()
+        {
+
+            StreamWriter escritor = new StreamWriter(Archivo);
+
+            foreach (DataRow fila in Tabla.Rows)
+            {
+
+                string linea = fila["Nombre"] + "," + fila["Apellido"] + "," + fila["Direccion"] + "," + fila["Telefono Casa"] + "," + fila["Telefono Celular"] + ",";
+
+                escritor.WriteLine(linea);
+            }
+
+            escritor.Close();
+
 
         }
     }

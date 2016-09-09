@@ -46,51 +46,58 @@
             this.mnsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.smiGuardar = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.btnCargarArchivo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvContactos)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbxNombre
             // 
-            this.tbxNombre.Location = new System.Drawing.Point(32, 40);
+            this.tbxNombre.Location = new System.Drawing.Point(43, 49);
+            this.tbxNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxNombre.Name = "tbxNombre";
-            this.tbxNombre.Size = new System.Drawing.Size(100, 20);
+            this.tbxNombre.Size = new System.Drawing.Size(132, 22);
             this.tbxNombre.TabIndex = 0;
             // 
             // tbxApellido
             // 
-            this.tbxApellido.Location = new System.Drawing.Point(138, 40);
+            this.tbxApellido.Location = new System.Drawing.Point(184, 49);
+            this.tbxApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxApellido.Name = "tbxApellido";
-            this.tbxApellido.Size = new System.Drawing.Size(100, 20);
+            this.tbxApellido.Size = new System.Drawing.Size(132, 22);
             this.tbxApellido.TabIndex = 1;
             // 
             // tbxDirrecion
             // 
-            this.tbxDirrecion.Location = new System.Drawing.Point(244, 40);
+            this.tbxDirrecion.Location = new System.Drawing.Point(325, 49);
+            this.tbxDirrecion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxDirrecion.Name = "tbxDirrecion";
-            this.tbxDirrecion.Size = new System.Drawing.Size(100, 20);
+            this.tbxDirrecion.Size = new System.Drawing.Size(132, 22);
             this.tbxDirrecion.TabIndex = 2;
             // 
             // tbxTelefonoCasa
             // 
-            this.tbxTelefonoCasa.Location = new System.Drawing.Point(350, 40);
+            this.tbxTelefonoCasa.Location = new System.Drawing.Point(467, 49);
+            this.tbxTelefonoCasa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxTelefonoCasa.Name = "tbxTelefonoCasa";
-            this.tbxTelefonoCasa.Size = new System.Drawing.Size(100, 20);
+            this.tbxTelefonoCasa.Size = new System.Drawing.Size(132, 22);
             this.tbxTelefonoCasa.TabIndex = 3;
             // 
             // tbxTelefonoCelular
             // 
-            this.tbxTelefonoCelular.Location = new System.Drawing.Point(456, 40);
+            this.tbxTelefonoCelular.Location = new System.Drawing.Point(608, 49);
+            this.tbxTelefonoCelular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxTelefonoCelular.Name = "tbxTelefonoCelular";
-            this.tbxTelefonoCelular.Size = new System.Drawing.Size(100, 20);
+            this.tbxTelefonoCelular.Size = new System.Drawing.Size(132, 22);
             this.tbxTelefonoCelular.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 24);
+            this.label1.Location = new System.Drawing.Point(39, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(58, 17);
             this.label1.TabIndex = 5;
             this.label1.Text = "Nombre";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -98,44 +105,49 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(135, 24);
+            this.label2.Location = new System.Drawing.Point(180, 30);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.Size = new System.Drawing.Size(58, 17);
             this.label2.TabIndex = 6;
             this.label2.Text = "Apellido";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(241, 24);
+            this.label3.Location = new System.Drawing.Point(321, 30);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(67, 17);
             this.label3.TabIndex = 7;
             this.label3.Text = "Direccion";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(347, 24);
+            this.label4.Location = new System.Drawing.Point(463, 30);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 13);
+            this.label4.Size = new System.Drawing.Size(100, 17);
             this.label4.TabIndex = 8;
             this.label4.Text = "Telefono Casa";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(453, 24);
+            this.label5.Location = new System.Drawing.Point(604, 30);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 13);
+            this.label5.Size = new System.Drawing.Size(112, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "Telefono Celular";
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(575, 27);
+            this.btnAgregar.Location = new System.Drawing.Point(760, 33);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.Size = new System.Drawing.Size(119, 28);
             this.btnAgregar.TabIndex = 10;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -145,27 +157,32 @@
             // 
             this.dgvContactos.AllowUserToAddRows = false;
             this.dgvContactos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvContactos.Location = new System.Drawing.Point(32, 79);
+            this.dgvContactos.Location = new System.Drawing.Point(43, 97);
+            this.dgvContactos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvContactos.Name = "dgvContactos";
-            this.dgvContactos.Size = new System.Drawing.Size(618, 180);
+            this.dgvContactos.Size = new System.Drawing.Size(943, 224);
             this.dgvContactos.TabIndex = 11;
             this.dgvContactos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Location = new System.Drawing.Point(0, 24);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 28);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(677, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1029, 24);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // menuStrip2
             // 
+            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnsMenu});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(677, 24);
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip2.Size = new System.Drawing.Size(1029, 28);
             this.menuStrip2.TabIndex = 13;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -174,27 +191,39 @@
             this.mnsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.smiGuardar});
             this.mnsMenu.Name = "mnsMenu";
-            this.mnsMenu.Size = new System.Drawing.Size(60, 20);
+            this.mnsMenu.Size = new System.Drawing.Size(71, 24);
             this.mnsMenu.Text = "Archivo";
             this.mnsMenu.Click += new System.EventHandler(this.mnsMenu_Click);
             // 
             // smiGuardar
             // 
             this.smiGuardar.Name = "smiGuardar";
-            this.smiGuardar.Size = new System.Drawing.Size(152, 22);
+            this.smiGuardar.Size = new System.Drawing.Size(137, 26);
             this.smiGuardar.Text = "Guardar";
             this.smiGuardar.Click += new System.EventHandler(this.smiGuardar_Click);
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(67, 4);
+            // 
+            // btnCargarArchivo
+            // 
+            this.btnCargarArchivo.Location = new System.Drawing.Point(886, 33);
+            this.btnCargarArchivo.Name = "btnCargarArchivo";
+            this.btnCargarArchivo.Size = new System.Drawing.Size(119, 28);
+            this.btnCargarArchivo.TabIndex = 14;
+            this.btnCargarArchivo.Text = "Cargar Agenda";
+            this.btnCargarArchivo.UseVisualStyleBackColor = true;
+            this.btnCargarArchivo.Click += new System.EventHandler(this.button1_Click);
             // 
             // agendaPersonal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(677, 260);
+            this.ClientSize = new System.Drawing.Size(1029, 352);
+            this.Controls.Add(this.btnCargarArchivo);
             this.Controls.Add(this.dgvContactos);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.label5);
@@ -210,6 +239,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "agendaPersonal";
             this.Text = "Agenda";
             this.Load += new System.EventHandler(this.agendaPersonal_Load);
@@ -240,6 +270,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnsMenu;
         private System.Windows.Forms.ToolStripMenuItem smiGuardar;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Button btnCargarArchivo;
     }
 }
 

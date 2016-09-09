@@ -36,6 +36,7 @@ namespace agenda
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            
             Contacto contacto = new Contacto();
 
             contacto.Nombre = tbxNombre.Text;
@@ -86,6 +87,11 @@ namespace agenda
 
                 }
             }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
